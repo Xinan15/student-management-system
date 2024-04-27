@@ -1,0 +1,26 @@
+/* src/main/resources/static directory is the default directory for static resources in Spring Boot. */
+/* Static resource includes images, CSS, and JavaScript files. */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333366;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+input[type="text"],
+input[type="email"],
+button {
+    padding: 10px;
+    margin: 5px 0;
+    display: block;
+    width: 95%;
+}
