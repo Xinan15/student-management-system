@@ -1,4 +1,5 @@
 // JPA Repository interface for User entity
+// CrudRepository is a Spring Data interface for generic CRUD operations on a repository for a specific type.
 
 package com.example.demo.repository;
 

@@ -1,5 +1,5 @@
 // Service layer for User entity
-
+// In this case, the UserService class is responsible for saving, retrieving, and deleting User entities.
 package com.example.demo.service;
 
 import com.example.demo.model.User;

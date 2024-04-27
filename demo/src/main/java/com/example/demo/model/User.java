@@ -1,3 +1,5 @@
+// User.java is a model class, defines the structure of the User entity.
+// The User entity has three fields: id, name, and email.
 package com.example.demo.model;
 
 import jakarta.persistence.Entity;
@@ -8,6 +10,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "users")
+// Here we specify the name of the table, as 'user' table is a reserved keyword in some databases.
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
