@@ -1,7 +1,6 @@
 package com.example.springbootdemo.dao;
 
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Select;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.example.springbootdemo.pojo.UserPojo;

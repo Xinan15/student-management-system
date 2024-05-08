@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @TableName(value = "user")
 public class UserPojo {
     // TableId 标识主键
-    @TableId(value = "username", type = IdType.ASSIGN_ID)
+    @TableId(value = "username", type = IdType.NONE)
     private String username;
 
     // TableField 标识字段/列
