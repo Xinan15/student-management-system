@@ -11,7 +11,8 @@ public class Result {
         map.put("code", 200);
         map.put("message", "success");
         // map.put("data", null);
-        String s = JSONObject.toJSONString(map);
+        // String s = JSONObject.toJSONString(map);
+        String s = new JSONObject(map).toString();
         return s;
 
         // 解耦

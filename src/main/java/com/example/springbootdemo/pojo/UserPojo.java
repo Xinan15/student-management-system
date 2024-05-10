@@ -8,6 +8,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+// pojo  相当于 entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

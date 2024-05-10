@@ -9,6 +9,9 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.example.springbootdemo.dao.UserDao;
 import com.example.springbootdemo.pojo.UserPojo;
 
+// @Service 注解表示这是一个服务类
+// 服务类用于处理业务逻辑，比如这里的增删改查
+
 @Service
 public class UserServiceImpl {
 
